@@ -319,6 +319,7 @@
                 footer {
                     background-color: #232323;
                     text-align: right;
+                    overflow: hidden;
                     /* bootstrap حتى يتناسب مع النسخة الحديثة من */
                 }
                 /* التنسيقات المطبقة على الخط في العنوان */
