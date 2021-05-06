@@ -4,17 +4,10 @@
                     background-position: center center;
                     background-attachment: fixed;
                     position: relative;
-                    z-index: -3;
                     text-align: right;
                     /* bootstrap حتى يتناسب مع النسخة الحديثة من */
                 }
                 /* إضافة اللون الأحمر بشفافية 80% على الطبقة التي تلي الصورة */
-                
-                section.banner .overlay {
-                    background-color: rgba(239, 71, 58, 0.8);
-                    z-index: -2;
-                    position: relative;
-                }
                 /* تضمين الخط الجديد ضمن الصفحة */
                 
                 @font-face {
@@ -31,20 +24,18 @@
                 
                 section.banner .overlay {
                     background-color: rgb(239, 71, 58, 0.8);
-                    z-index: -3;
                     position: relative;
                     padding-top: 90px;
                 }
                 
                 section.banner .overlay .images {
-                    position: absolute;
                     bottom: -250px;
                     right: 0;
-                    z-index: -1;
                 }
                 
                 section.banner .overlay .images img {
                     max-width: 100%;
+                    z-index: -1;
                 }
                 /* ضبط الهامش الخاص بصورة أيقونة المطعم */
                 
@@ -69,23 +60,23 @@
                 }
                 /* تنسيقات لون الأزرار والمسافات الخاصة به */
                 
-                section.banner .overlay .banner-text button {
+                section.banner .overlay .banner-text a {
                     line-height: 50px;
                     margin: 40px 0;
                     background-color: #fafafa;
                 }
                 /* تنسيق أيقونة متجر جوجل وأبل */
                 
-                section.banner .overlay .banner-text button img {
+                section.banner .overlay .banner-text a img {
                     width: 50px;
                 }
                 
-                section.banner .overlay .banner-text button i {
+                section.banner .overlay .banner-text a i {
                     font-size: 50px;
                 }
                 /* تنسيق النص داخل الزر */
                 
-                section.banner .overlay .banner-text button p {
+                section.banner .overlay .banner-text a p {
                     display: inline-block;
                     font-size: 15px;
                     line-height: 25px;
@@ -94,12 +85,12 @@
                 }
                 /* تنسيق الخط الثخين داخل الزر */
                 
-                section.banner .overlay .banner-text button p span {
+                section.banner .overlay .banner-text a p span {
                     font-size: 18px;
                 }
                 /* ضبط الهامش الخاص بالزر الأخير */
                 
-                section.banner .overlay .banner-text button:last-child {
+                section.banner .overlay .banner-text a:last-child {
                     margin-right: 20px;
                 }
                 /* وسم التنسيقات التي ستطبق على الشاشات بين 576 بكسل و 767 بكسل */
